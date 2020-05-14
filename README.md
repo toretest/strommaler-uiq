@@ -1,6 +1,6 @@
 # strommalerApp (strommaler-ui)
 
-Admin current use and payments in your house  
+Admin current use and payments in your house
 
 ## Install the dependencies
 ```bash
@@ -25,3 +25,7 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 # strommaler-uiq
+
+#Idea tips
+See https://forum.quasar-framework.org/topic/1934/quasar-dev-to-intellij-run-debug-configuration
+
