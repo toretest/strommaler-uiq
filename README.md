@@ -26,6 +26,29 @@ quasar build
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 # strommaler-uiq
 
+### Heroku
+
+package.json:
+```
+https://quasar.dev/quasar-cli/installation
+ "build": "quasar build",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install -g @quasar/cli"
+```
+
+# Heroku
+https://dashboard.heroku.com/apps/desolate-temple-13672/activity/builds/faf99ec4-6e87-4297-9422-4d3d1e91e8bc
+
+heroku-run-build-script
+```
+  ],
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  },
+  "heroku-run-build-script": true
+}
+```
+
 # Tips
 - https://quasar.dev/
 - Intelli Idea https://forum.quasar-framework.org/topic/1934/quasar-dev-to-intellij-run-debug-configuration
