@@ -27,6 +27,13 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 # strommaler-uiq
 
 # Tips
-See https://forum.quasar-framework.org/topic/1934/quasar-dev-to-intellij-run-debug-configuration
+- https://quasar.dev/
+- Intelli Idea https://forum.quasar-framework.org/topic/1934/quasar-dev-to-intellij-run-debug-configuration
+- Video https://www.youtube.com/watch?v=C-v262YhYvw
 
-https://www.youtube.com/watch?v=C-v262YhYvw
+# AWS Amplify Console
+https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
+https://eu-central-1.console.aws.amazon.com/amplify/home?region=eu-central-1&code=287db6f5da6e37b3b42d#/
+https://eu-central-1.console.aws.amazon.com/amplify/home?region=eu-central-1&code=287db6f5da6e37b3b42d#/d2560lcmcqv27r/settings/rewrites
+
+https://github.com/jonashackt/spring-boot-vuejs

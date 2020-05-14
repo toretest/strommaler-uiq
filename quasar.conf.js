@@ -66,7 +66,7 @@ module.exports = configure(function (ctx) {
 
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ts
     supportTS: {
-      tsCheckerConfig: { eslint: true }
+      tsCheckerConfig: { eslint: false }
     },
 
     // https://quasar.dev/quasar-cli/cli-documentation/prefetch-feature
