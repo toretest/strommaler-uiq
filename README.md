@@ -26,6 +26,7 @@ quasar build
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 # strommaler-uiq
 
-#Idea tips
+# Tips
 See https://forum.quasar-framework.org/topic/1934/quasar-dev-to-intellij-run-debug-configuration
 
+https://www.youtube.com/watch?v=C-v262YhYvw
