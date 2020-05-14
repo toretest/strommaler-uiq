@@ -12,7 +12,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build",
     "start": "node server.js",
-    "heroku-postbuild": "yarn && yarn build"
+    "heroku-postbuild": "npm install -g @quasar/cli"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -50,5 +50,5 @@
   "resolutions": {
     "@babel/parser": "7.7.5"
   },
-  "heroku-run-build-script": false
+  "heroku-run-build-script": true
 }
