@@ -37,3 +37,5 @@ https://eu-central-1.console.aws.amazon.com/amplify/home?region=eu-central-1&cod
 https://eu-central-1.console.aws.amazon.com/amplify/home?region=eu-central-1&code=287db6f5da6e37b3b42d#/d2560lcmcqv27r/settings/rewrites
 
 https://github.com/jonashackt/spring-boot-vuejs
+
+https://medium.com/netscape/deploying-a-vue-js-2-x-app-to-heroku-in-5-steps-tutorial-a69845ace489
