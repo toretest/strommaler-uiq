@@ -37,6 +37,13 @@ https://quasar.dev/quasar-cli/installation
 ```
 
 # Heroku
+
+commands https://help.heroku.com/UMAUQ4UF/why-am-i-seeing-application-error
+```
+heroku restart
+heroku logs --tail --app <not needed when current>
+```
+
 https://dashboard.heroku.com/apps/desolate-temple-13672/activity/builds/faf99ec4-6e87-4297-9422-4d3d1e91e8bc
 
 heroku-run-build-script
@@ -48,6 +55,9 @@ heroku-run-build-script
   "heroku-run-build-script": true
 }
 ```
+
+## ports settings:
+https://stackoverflow.com/questions/18864677/what-is-process-env-port-in-node-js
 
 # Tips
 - https://quasar.dev/

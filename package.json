@@ -12,9 +12,10 @@
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build",
     "start": "node server.js",
-    "heroku-postbuild": "npm install -g @quasar/cli"
+    "heroku-postbuild": "npm install && quasar build"
   },
   "dependencies": {
+    "@quasar/cli": "^1.0.7",
     "@quasar/extras": "^1.0.0",
     "@vue/composition-api": "^0.5.0",
     "axios": "^0.18.1",
