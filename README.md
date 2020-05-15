@@ -41,9 +41,12 @@ https://dashboard.heroku.com/apps/desolate-temple-13672/activity/builds/faf99ec4
 
 ## Config notes using quasar
 
-1. Seems that we need to install quasar locally (added as an dependency in package.json) , to get it available under build process
+1. Seems that we need to install quasar locally (added as an dev dependency in package.json) , to get it available under build process
 ```
-npm install @quasar/cli
+npm i @quasar/cli -D
+   or
+npm install @quasar/cli --save-dev
+
 ```
 This give use new lines in package.json:
 ```
@@ -81,6 +84,7 @@ and **heroku-run-build-script** set to _**true**_
 - Intelli Idea https://forum.quasar-framework.org/topic/1934/quasar-dev-to-intellij-run-debug-configuration
 - Video https://www.youtube.com/watch?v=C-v262YhYvw
 - ports settings https://stackoverflow.com/questions/18864677/what-is-process-env-port-in-node-js
+- move dependencies to dev depenencies and versa  https://stackoverflow.com/questions/46903002/move-a-module-from-devdependencies-to-dependencies-in-npm-package-json
 
 # AWS Amplify Console
 https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
