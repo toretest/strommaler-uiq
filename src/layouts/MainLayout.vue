@@ -12,10 +12,16 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Strøm og pris app
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn
+          to="/auth"
+          flat
+          icon-right="account_circle"
+          label="Account"
+          class="absolute-right"
+        />
+<!--        <div>Quasar v{{ $q.version }}</div>-->
       </q-toolbar>
     </q-header>
 
