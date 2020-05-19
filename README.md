@@ -195,6 +195,9 @@ and **heroku-run-build-script** set to _**true**_
 - move dependencies to dev depenencies and versa  https://stackoverflow.com/questions/46903002/move-a-module-from-devdependencies-to-dependencies-in-npm-package-json
 - Bootiful Development with Spring Boot and Vue https://developer.okta.com/blog/2018/12/03/bootiful-spring-boot-java-vue-typescript
 
+Danny sight
+- https://www.youtube.com/channel/UC6eR_ndNgaTeE5t2Ud4ZiHw
+- https://www.youtube.com/watch?v=pzoyvPxNyYI
 # AWS Amplify Console
 https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html
 https://eu-central-1.console.aws.amazon.com/amplify/home?region=eu-central-1&code=287db6f5da6e37b3b42d#/

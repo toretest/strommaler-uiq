@@ -1,7 +1,7 @@
 <template>
   <q-page class="row items-center justify-evenly">
     <example-component
-      title="Example component"
+      title="Register Current and price every month"
       active
       :todos="todos"
       :meta="meta"

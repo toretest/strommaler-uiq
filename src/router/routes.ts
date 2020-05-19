@@ -11,18 +11,28 @@ const routes: RouteConfig[] = [{
     },
     {
       path: '/auth',
-      component: () => import('pages/PageAuth.vue')
+      component: () => import('pages/PageAuth.vue'),
+      meta: {
+        requiresAuth: true
+      }
     },
     {
       path: '/help',
-      component: () => import('pages/PageHelp.vue')
+      component: () => import('pages/PageHelp.vue'),
+      meta: {
+        requiresAuth: false
+      }
     },
     {
       path: '/todo',
       component: () => import('pages/PageTodo.vue'),
       meta: {
-        requiresAuth: true
+        requiresAuth: false
       }
+    },
+    {
+      path: '/settings',
+      component: () => import('pages/PageSettings.vue')
     },
     {
       path: 'implicit/callback',
