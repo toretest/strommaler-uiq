@@ -2,7 +2,7 @@
   <q-layout view="hHh lpR fFf">
     <q-header elevated>
       <q-toolbar>
-        <q-toolbar-title class="absolute-center">
+        <q-toolbar-title >
           Strøm og pris app
         </q-toolbar-title>
         <q-btn
