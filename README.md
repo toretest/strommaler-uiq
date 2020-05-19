@@ -54,9 +54,15 @@ MY_DOTENV_TEST="This should work!"
 ```
 
 # Okta
+
+## Viktig
+- https://help.okta.com/en/prod/Content/Topics/Security/API_Access.htm?cshid=create-scopes#create-scopes
 - https://www.npmjs.com/package/@okta/okta-vue
+- admin okta vue https://developer.okta.com/blog/2020/05/15/vue-login
 - 0https://jwt.io/
 - https://oidcdebugger.com/
+
+
 ```
 npm i @okta/okta-vue@2.0.0 @types/okta__okta-vue@1.2.0
 ```
@@ -125,10 +131,10 @@ state=EZ8MlNMvelrLaTpgAG3xZQwcWWcQbTxs8RNdOnAffEcibL2TiWuZCwhKnqU2S4FH&scope=ope
 - https://quasar.dev
 - https://material.io/resources/icons/?style=baseline
 
-# env: Heroku
+# Heroku deploy env
 When checking into github, automatic build and deploy to stage.
 Heroku support github out of the box!
-
+(NB! Okta support)
 ## Nice commands https://help.heroku.com/UMAUQ4UF/why-am-i-seeing-application-error
 ```
 npm audit // SIkkerhet på pakker https://blog.npmjs.org/post/173719309445/npm-audit-identify-and-fix-insecure
